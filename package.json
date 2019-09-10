@@ -1,0 +1,14 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "description": "this is a react app",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "maria",
+  "license": "ISC",
+  "dependencies": {
+    "better-console": "^1.0.1"
+  }
+}
