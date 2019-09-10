@@ -57,8 +57,13 @@
 
 button {
     overflow: visible;
-    padding: 10px 40px;
+    padding: 16px 130px;
     border-radius: 10px;
+}
+
+.form-btn {
+    background-color: #2ebc4f;
+    color: white;
 }
 
 button:focus {
@@ -73,9 +78,14 @@ ul li {
     margin-left: 10px;
 }
 
+ul li a {
+    text-decoration: none;
+}
+
 input {
-    padding: 10px 50px;
-    margin-bottom: 3rem;
+    padding: 10px 94px;
+    margin-bottom: 2rem;
+    border-radius: 4px;
 }
 
 input:focus {
@@ -107,31 +117,45 @@ main {
     margin: 0%;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-}
-
 form {
     display: block;
 }
 
 .signup {
     display: grid;
-    grid-template-columns: 35% 1fr 1fr;
-    height: 82vh;
-    width: 35vw;
-    /* background-color: white; */
+    grid-template-columns: 19% 1fr 1fr;
+    height: 44vh;
+    width: 36vw;
     text-align: center;
     color: black;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(10, 151, 216);
 }
 
 .form-input {
     background-color: white;
     color: black;
+    height: 410px;
+    width: 385px;
+    padding: 48px 43px 50px 46px;
+    border-radius: 1rem;
 }
 
+.form-input p {
+    font-size: 12px;
+}
 
-/* main {
-    background-image: url(images\github.jpg);
-} */
+.App-main {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    display: grid;
+    grid-auto-columns: 50% 1fr 1fr 50%;
+    min-width: 100%;
+    min-height: 100%;
+    grid-column: 2/3;
+}
