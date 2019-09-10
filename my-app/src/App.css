@@ -19,11 +19,12 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-}
-
-.App-link {
-    color: #61dafb;
 } */
+
+
+/* .App-link {
+    color: #61dafb;
+}  */
 
 
 /* @keyframes App-logo-spin {
@@ -35,7 +36,8 @@
     }
 } */
 
-@media (min-width: 768px) {
+
+/* @media (min-width: 768px) {
     .container {
         max-width: 720px;
     }
@@ -51,10 +53,9 @@
     .container {
         max-width: 1140px;
     }
-}
+} */
 
-button,
-input {
+button {
     overflow: visible;
     padding: 10px 40px;
     border-radius: 10px;
@@ -62,7 +63,7 @@ input {
 
 button:focus {
     outline: 1px dotted;
-    outline: 5px auto -webkit-focus-ring-color;
+    outline: 5px auto focus-ring-color;
 }
 
 ul li {
@@ -72,11 +73,26 @@ ul li {
     margin-left: 10px;
 }
 
+input {
+    padding: 10px 50px;
+    margin-bottom: 3rem;
+}
+
+input:focus {
+    outline: 1px dotted;
+    outline: 5px auto focus-ring-color;
+}
+
 
 /* .App {
     background-color: black;
     color: white;
 } */
+
+header {
+    background-color: black;
+    color: white;
+}
 
 .App-header {
     background-color: black;
@@ -85,7 +101,7 @@ ul li {
     margin: 0%;
 }
 
-.App-main {
+main {
     background-color: black;
     color: white;
     margin: 0%;
@@ -97,8 +113,25 @@ a {
 }
 
 form {
-    min-width: 100vw;
-    min-height: 100vh;
-    color: white;
     display: block;
 }
+
+.signup {
+    display: grid;
+    grid-template-columns: 35% 1fr 1fr;
+    height: 82vh;
+    width: 35vw;
+    /* background-color: white; */
+    text-align: center;
+    color: black;
+}
+
+.form-input {
+    background-color: white;
+    color: black;
+}
+
+
+/* main {
+    background-image: url(images\github.jpg);
+} */

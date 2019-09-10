@@ -6,51 +6,57 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <nav>
-          <ul>
-            <li>
-              <a href="#"></a>Why GitHub?{" "}
-            </li>
-            <li>
-              <a href="#">Enterprise</a>
-            </li>
-            <li>
-              <a href="#">Explore </a>
-            </li>
-            <li>
-              <a href="#">Marketplace</a>
-            </li>
-            <li>
-              <a href="#">Pricing </a>
-            </li>
-          </ul>
-        </nav>
+        <ul>
+          <li>
+            <a href="#">Why GitHub?</a>
+          </li>
+          <li>
+            <a href="#">Enterprise</a>
+          </li>
+          <li>
+            <a href="#">Explore </a>
+          </li>
+          <li>
+            <a href="#">Marketplace</a>
+          </li>
+          <li>
+            <a href="#">Pricing </a>
+          </li>
+        </ul>
       </header>
       <main>
         <div className="App-main">
-          <div className="heading">
-            <h1>Built for developers</h1>
-            <p>
-              GitHub is a development platform inspired by the way you work.
-              From <a href="#">open source</a> to <a href="#">business</a>, you
-              can host and review code, manage projects, and build software
-              alongside 40 million developers.
-            </p>
-          </div>
+          <h1>Built for developers</h1>
+          <p>
+            GitHub is a development platform inspired by the way you work. From{" "}
+            <a href="#">open source</a> to <a href="#">business</a>, you can
+            host and review code, manage projects, and build software alongside
+            40 million developers.
+          </p>
+        </div>
+        <div className="form-input">
           <div className="signup">
             <form>
-              <label>Username</label>
-              <input type="text" placeholder="pick a username" />
-              <label>Email</label>
-              <input type="text" placeholder="your email address" />
-              <label>Password</label>
-              <input type="password" placeholder="create a password" />
-              <p>
-                Make sure it's at least 15 characters OR at least 8 characters
-                including a number and a lowercase letter.{" "}
-                <a href="#">Learn more.</a>
-              </p>
+              <div className="form-group">
+                <label>Username</label>
+                <input type="text" placeholder="pick a username" />
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="text" placeholder="your email address" />
+              </div>
+              <div className="form-group form-check">
+                <label>Password</label>
+                <input type="password" placeholder="create a password" />
+              </div>
             </form>
+          </div>
+          <div className>
+            <p>
+              Make sure it's at least 15 characters OR at least 8 characters
+              including a number and a lowercase letter.{" "}
+              <a href="#">Learn more.</a>
+            </p>
             <button type="button">Sign up for GitHub</button>
             <p>
               By clicking “Sign up for GitHub”, you agree to our{" "}
@@ -60,8 +66,7 @@ function App() {
             </p>
           </div>
         </div>
-
-        <div>
+        <div className="get-start">
           <h2>Get started with GitHub Enterprise</h2>
           <p>
             Take collaboration to the next level with security and
