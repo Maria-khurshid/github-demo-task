@@ -71,20 +71,40 @@ function App() {
           </div>
         </div>
         <div className="get-start">
-          <h2>Get started with GitHub Enterprise</h2>
-          <p>
-            Take collaboration to the next level with security and
-            administrative features built for businesses.
-          </p>
-          <button>Contect Sales</button>
-          <a
-            className="App-link"
-            href="https://github.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Or start a free trial of Enterprise Server
-          </a>
+          <div className="get-start-box">
+            <h2>Get started with GitHub Enterprise</h2>
+            <p>
+              Take collaboration to the next level with security and
+              administrative features built for businesses.
+            </p>
+            <div className="enter-cloud">
+              <div className="enter-box">
+                <h3>Enterprise Cloud</h3>
+                <p>Leave the hosting to us.</p>
+                <button>Try Cloud free</button>
+              </div>
+              <div className="enter-server">
+                <h3>Enterprise Server</h3>
+                <p>Deploy to your environment.</p>
+                <button>Try Server for free</button>
+              </div>
+              <div className="talk-us">
+                <h3>Talk to us</h3>
+                <p>Want to use both?</p>
+                <button>Contect Sales</button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <a
+              className="App-link"
+              href="https://github.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Or start a free trial of Enterprise Server
+            </a>
+          </div>
         </div>
         <div className="image">
           <img src="" />
