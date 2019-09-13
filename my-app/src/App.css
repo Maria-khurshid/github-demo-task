@@ -55,6 +55,19 @@
     }
 } */
 
+body {
+    color: #232527;
+}
+
+
+/* h1 {
+    color: #232527;
+}
+
+p {
+    color: #3a3e42;
+} */
+
 button {
     overflow: visible;
     padding: 16px 20px;
@@ -73,7 +86,8 @@ button:focus {
     outline: 5px auto focus-ring-color;
 }
 
-ul li {
+
+/* ul li {
     list-style-type: none;
     display: inline-block;
     margin-left: 10px;
@@ -82,17 +96,17 @@ ul li {
 ul li>a {
     text-decoration: none;
     color: white;
-}
+} */
 
 input {
     padding: 10px 94px;
     margin-bottom: 2rem;
     border-radius: 4px;
+    outline: none;
 }
 
 input:focus {
-    outline: 1px dotted;
-    outline: 5px auto focus-ring-color;
+    outline: 1px solid rgb(54, 144, 247);
 }
 
 
@@ -101,16 +115,79 @@ input:focus {
     color: white;
 } */
 
-header {
+.App-header {
     background-color: #24292e;
+    display: flex;
+    /* justify-content: space-between; */
+    height: 72px;
+}
+
+.App-header>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0% 10px 10px 10px;
+}
+
+.App-header>ul>li {
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.search {
+    background-color: #404448;
+    border: none;
+    border-radius: 2px;
+    height: 36px;
+    width: 213px;
+    padding: 8px;
+    outline: none;
+}
+
+.search::placeholder {
+    color: rgb(155, 155, 155);
+}
+
+.App-header>ul>li>a {
     color: white;
 }
 
-.App-header {
+.github-signup {
+    border: 10px solid white;
+    background-color: #404448;
+    font-size: 20px;
+}
+
+.github-signin {
+    border: none;
+    background-color: #404448;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+ul>li {
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+} */
+
+
+/* .App-header {
     color: white;
     padding: 1rem;
     margin: 0%;
-}
+} */
 
 main {
     color: black;
@@ -167,17 +244,121 @@ a {
 
 .get-start-box {
     box-sizing: border-box;
-    background-color: antiquewhite;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0 1px 15px rgba(27, 31, 35, .15);
-    width: 84vw;
-    height: 86vh;
-    margin-left: 70px;
+    font-size: 19px;
+    font-weight: 600;
+    width: 24%;
+}
+
+.enter-cloud>div>button {
+    background-color: #1074e7;
+    color: white;
+    border: none;
+}
+
+.enter-server {
+    margin-left: 54px;
+}
+
+
+/* 
+.enter-server>button {} */
+
+.enter-box {
+    margin-left: 54px;
+}
+
+.talk-us {
+    margin-left: 54px;
 }
 
 .enter-cloud {
     box-sizing: border-box;
-    box-shadow: 0 1px 15px rgba(27, 31, 35, .15);
     display: flex;
+    justify-content: center;
+    margin-left: 74px;
+}
+
+.github-logo {
+    width: 7%;
+    background-color: white;
+    border-radius: 24px;
+    padding: 5px;
+}
+
+.get-start {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 1px 15px rgba(27, 31, 35, .15);
+    padding: 54px;
+    align-items: center;
+    margin: 84px 66px 0px 86px;
+}
+
+
+/* .robot-img-blocks {
+    display: flex;
+    justify-content: center;
+} */
+
+.robot {
+    display: flex;
+}
+
+.betr-way {
+    text-align: center;
+    height: 62vh;
+}
+
+.image-para {
+    display: flex;
+}
+
+.robot-img-blocks {
+    width: 29vw;
+}
+
+.signup-team {
+    border: 0.5px solid #1074e7;
+    color: #1074e7;
+    background-color: white;
+    padding: 20px 30px;
+    font-size: 18px;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+}
+
+.middle>figure {
+    box-shadow: 0 1px 15px rgba(27, 31, 35, .15);
+    box-sizing: border-box;
+}
+
+.middle>figure>figcaption {
+    text-align: center;
+}
+
+.mgm-img-heading {
+    text-align: center;
+}
+
+.buildGit>img {
+    border-radius: 50px;
+}
+
+.control-heading {
+    text-align: center;
+}
+
+.code-secur {
+    display: flex;
+    width: 88vw;
+    height: 74vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.secur-para {
+    width: 29vw;
 }

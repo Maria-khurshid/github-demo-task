@@ -8,7 +8,11 @@ function App() {
       <header className="App-header">
         <ul>
           <li>
-            <img src="my-app\images\GitHub-Mark-64px.png" alt="logo"></img>
+            <img
+              className="github-logo"
+              src="https://pngimg.com/uploads/github/github_PNG34.png"
+              alt="logo"
+            ></img>
           </li>
           <li>
             <a href="#">Why GitHub?</a>
@@ -26,6 +30,11 @@ function App() {
             <a href="#">Pricing </a>
           </li>
         </ul>
+        <div className="header-input">
+          <input className="search" placeholder="Search Github" />
+          <button className="github-signin">Sign in</button>
+          <button className="github-signup">Sign up</button>
+        </div>
       </header>
       <main>
         <div className="App-main">
@@ -80,127 +89,176 @@ function App() {
               Take collaboration to the next level with security and
               administrative features built for businesses.
             </p>
-            <div className="enter-cloud">
-              <div className="enter-box">
-                <h3>Enterprise Cloud</h3>
-                <p>Leave the hosting to us.</p>
-                <button>Try Cloud free</button>
+          </div>
+          <div className="enter-cloud">
+            <div className="enter-box">
+              <h3>Enterprise Cloud</h3>
+              <p>Leave the hosting to us.</p>
+              <button>Try Cloud free</button>
+            </div>
+            <div className="enter-server">
+              <h3>Enterprise Server</h3>
+              <p>Deploy to your environment.</p>
+              <button>Try Server for free</button>
+            </div>
+            <div className="talk-us">
+              <h3>Talk to us</h3>
+              <p>Want to use both?</p>
+              <button>Contect Sales</button>
+            </div>
+          </div>
+        </div>
+        {/* <div>
+          <a
+            className="App-link"
+            href="https://github.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Or start a free trial of Enterprise Server
+          </a>
+        </div> */}
+        <div className="image">
+          {/* <img src="my-app\images\light-img.png" />
+          <h3>More than 2.1 million businesses and organizations use GitHub</h3>
+          <img src="" /> */}
+          <div className="betr-way">
+            <p>GitHub for teams</p>
+            <h1>A better way to work together</h1>
+            <p>
+              GitHub brings teams together to work through problems, move ideas
+              forward, and learn from each other along the way.
+            </p>
+            <button className="signup-team">Sign up your team →</button>
+          </div>
+          <div className="image-para">
+            <div className="robot">
+              <img
+                src="https://github.githubassets.com/images/modules/site/home-illo-team.svg"
+                alt="robot-image"
+                height="500vh"
+              />
+            </div>
+            <div className="robot-img-blocks">
+              <div className="btr-code">
+                <h3>Write better code</h3>
+                <p>
+                  Collaboration makes perfect. The conversations and code
+                  reviews that happen in pull requests help your team share the
+                  weight of your work and improve the software you build.{" "}
+                  <a href="#">Learn about code review.</a>
+                </p>
               </div>
-              <div className="enter-server">
-                <h3>Enterprise Server</h3>
-                <p>Deploy to your environment.</p>
-                <button>Try Server for free</button>
+              <div className="mange-chos">
+                <h3>Manage your chaos</h3>
+                <p>
+                  Take a deep breath. On GitHub, project management happens in
+                  issues and project boards, right alongside your code. All you
+                  have to do is mention a teammate to get them involved.{" "}
+                  <a href="#">Learn about project management.</a>
+                </p>
               </div>
-              <div className="talk-us">
-                <h3>Talk to us</h3>
-                <p>Want to use both?</p>
-                <button>Contect Sales</button>
+              <div className="find-tool">
+                <h3>Find the right tools</h3>
+                <p>
+                  Browse and buy apps from GitHub Marketplace with your GitHub
+                  account. Find the tools you like or discover new
+                  favorites—then start using them in minutes.{" "}
+                  <a href="#">Learn about integrations.</a>
+                </p>
               </div>
             </div>
           </div>
-          <div>
-            <a
-              className="App-link"
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Or start a free trial of Enterprise Server
-            </a>
-          </div>
         </div>
-        <div className="image">
-          <img src="" />
-          <h3>More than 2.1 million businesses and organizations use GitHub</h3>
-          <img src="" />
-          <p>GitHub for teams</p>
-          <h1>A better way to work together</h1>
-          <p>
-            GitHub brings teams together to work through problems, move ideas
-            forward, and learn from each other along the way.
-          </p>
-          <button>Sign up your team →</button>
-          <img src="" />
-          <h3>Write better code</h3>
-          <p>
-            Collaboration makes perfect. The conversations and code reviews that
-            happen in pull requests help your team share the weight of your work
-            and improve the software you build.{" "}
-            <a href="#">Learn about code review.</a>
-          </p>
-          <h3>Manage your chaos</h3>
-          <p>
-            Take a deep breath. On GitHub, project management happens in issues
-            and project boards, right alongside your code. All you have to do is
-            mention a teammate to get them involved.{" "}
-            <a href="#">Learn about project management.</a>
-          </p>
-          <h3>Find the right tools</h3>
-          <p>
-            Browse and buy apps from GitHub Marketplace with your GitHub
-            account. Find the tools you like or discover new favorites—then
-            start using them in minutes.{" "}
-            <a href="#">Learn about integrations.</a>
-          </p>
-          <div className="middle">
-            <h2>
-              See how the world's leading companies use GitHub Enterprise.
-            </h2>
-            <figure>
-              <img src="" />
-              <figcaption>
-                <h3>MGM Resorts International</h3>
-                <p>Hospitality</p>
-                <a href="#">Read more →</a>
-              </figcaption>
-            </figure>
-            <figure>
-              <img src="" />
-              <figcaption>
-                <h3>Nationwide</h3>
-                <p>Insurance</p>
-                <a href="#">Read more →</a>
-              </figcaption>
-            </figure>
-            <figure>
-              <img src="" />
-              <figcaption>
-                <h3>SAP</h3>
-                <p>Business Software</p>
-                <a href="#">Read more →</a>
-              </figcaption>
-            </figure>
-            <figure>
-              <img src="" />
-              <figcaption>
-                <h3>Skyscanner</h3>
-                <p>Travel</p>
-                <a href="#">Read more →</a>
-              </figcaption>
-            </figure>
-          </div>
+        <div className="mgm-img-heading">
+          <h2>See how the world's leading companies use GitHub Enterprise.</h2>
+        </div>
+        <div className="middle">
+          <figure>
+            <img
+              src="https://camo.githubusercontent.com/2bf028cf073114afe7717cdbe4b84c2aaff08607/68747470733a2f2f637573746f6d65722d73746f726965732d666565642e6769746875622e636f6d2f637573746f6d65725f73746f726965732f6d676d2d7265736f7274732f6d676d5f706f6f6c2e6a7067"
+              height="180vh"
+              alt="mgm-img"
+            />
+            <figcaption>
+              <h3>MGM Resorts International</h3>
+              <p>Hospitality</p>
+              <a href="#">Read more →</a>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://camo.githubusercontent.com/04e27770c4fe0487609337e4657247ed04bff517/68747470733a2f2f637573746f6d65722d73746f726965732d666565642e6769746875622e636f6d2f637573746f6d65725f73746f726965732f6e6174696f6e776964652f44534330303536352e6a7067"
+              alt="insurnc-img"
+              height="180vh"
+            />
+            <figcaption>
+              <h3>Nationwide</h3>
+              <p>Insurance</p>
+              <a href="#">Read more →</a>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://camo.githubusercontent.com/0a2059318e5ad95896f7827cf9c6cd596aef3a50/68747470733a2f2f637573746f6d65722d73746f726965732d666565642e6769746875622e636f6d2f637573746f6d65725f73746f726965732f6e6174696f6e776964652f44534330303533392e6a7067"
+              height="180vh"
+              alt="sap-img"
+            />
+            <figcaption>
+              <h3>SAP</h3>
+              <p>Business Software</p>
+              <a href="#">Read more →</a>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://camo.githubusercontent.com/bc1f893ca86fb495535e96a099cf6e0b95f7e73b/68747470733a2f2f637573746f6d65722d73746f726965732d666565642e6769746875622e636f6d2f637573746f6d65725f73746f726965732f73706f746966792f73706f74696679312e6a7067"
+              height="180vh"
+              alt="travel-img"
+            />
+            <figcaption>
+              <h3>Skyscanner</h3>
+              <p>Travel</p>
+              <a href="#">Read more →</a>
+            </figcaption>
+          </figure>
         </div>
         <div className="security">
-          <h6>Security and administration</h6>
-          <h1>Your business needs, met</h1>
-          <p>
-            From flexible hosting to granular access controls, we’ve got your
-            security requirements covered.
-          </p>
-          <button>How GitHub Enterprise works →</button>
-          <img src="" />
-          <h3>Code security</h3>
-          <p>
-            Prevent problems before they happen. Protected branches, signed
-            commits, and required status checks protect your work and help you
-            maintain a high standard for your code.
-          </p>
-          <h3>Access controlled</h3>
-          <p>
-            Encourage teams to work together while limiting access to those who
-            need it with granular permissions and authentication through
-            SAML/SSO and LDAP.
-          </p>
+          <div className="control-heading">
+            <h6>Security and administration</h6>
+            <h1>Your business needs, met</h1>
+            <p>
+              From flexible hosting to granular access controls, we’ve got your
+              security requirements covered.
+            </p>
+            <button className="signup-team">
+              How GitHub Enterprise works →
+            </button>
+          </div>
+
+          <div className="code-secur">
+            <div className="secur-para">
+              <h3>Code security</h3>
+              <p>
+                Prevent problems before they happen. Protected branches, signed
+                commits, and required status checks protect your work and help
+                you maintain a high standard for your code.
+              </p>
+              <h3>Access controlled</h3>
+              <p>
+                Encourage teams to work together while limiting access to those
+                who need it with granular permissions and authentication through
+                SAML/SSO and LDAP.
+              </p>
+            </div>
+            <div className="sms-section">
+              <img
+                src="https://github.githubassets.com/images/modules/site/home-illo-business.png"
+                alt="sms-img"
+                height="300vh"
+              />
+            </div>
+          </div>
         </div>
         <div className="buildGit">
           <p>Integrations</p>
@@ -210,13 +268,37 @@ function App() {
             Integrate the tools you already use or discover new favorites to
             create a happier, more efficient way of working.
           </p>
-          <button>Learn about integrations →</button>
-          <img src="" />
-          <img src="" />
-          <img src="" />
-          <img src="" />
-          <img src="" />
-          <img src="" />
+          <button className="signup-team">Learn about integrations →</button>
+          <img
+            src="https://github.githubassets.com/images/modules/site/integrators/slackhq.png"
+            alt="slack-logo"
+            height="80vh"
+          />
+          <img
+            src="https://github.githubassets.com/images/modules/site/integrators/zenhubio.png"
+            alt="zanhobo-logo"
+            height="80vh"
+          />
+          <img
+            src="https://github.githubassets.com/images/modules/site/integrators/travis-ci.png"
+            height="80vh"
+          />
+          <img
+            src="https://github.githubassets.com/images/modules/site/integrators/atom.png"
+            height="80vh"
+          />
+          <img
+            src="https://github.githubassets.com/images/modules/site/integrators/circleci.png"
+            height="80vh"
+          />
+          <img
+            src="https://github.githubassets.com/images/modules/site/integrators/google.png"
+            height="80vh"
+          />
+          <img
+            src="https://github.githubassets.com/images/modules/site/integrators/codeclimate.png"
+            height="80vh"
+          />
           <p>
             Sometimes, there’s more than one tool for the job. Why not try
             something new?
