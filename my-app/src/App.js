@@ -8,6 +8,9 @@ function App() {
       <header className="App-header">
         <ul>
           <li>
+            <img src="my-app\images\GitHub-Mark-64px.png" alt="logo"></img>
+          </li>
+          <li>
             <a href="#">Why GitHub?</a>
           </li>
           <li>

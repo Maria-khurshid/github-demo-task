@@ -65,6 +65,7 @@ button {
     background-color: #2ebc4f;
     border: none;
     color: white;
+    padding: 21px 123px;
 }
 
 button:focus {
@@ -164,7 +165,7 @@ a {
     align-items: center;
 }
 
-.get-start {
+.get-start-box {
     box-sizing: border-box;
     background-color: antiquewhite;
     align-items: center;
@@ -173,4 +174,10 @@ a {
     width: 84vw;
     height: 86vh;
     margin-left: 70px;
+}
+
+.enter-cloud {
+    box-sizing: border-box;
+    box-shadow: 0 1px 15px rgba(27, 31, 35, .15);
+    display: flex;
 }
